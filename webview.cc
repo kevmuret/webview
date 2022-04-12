@@ -1,5 +1,6 @@
 // +build !windows
 
+#define WEBVIEW_HEADER
 #include "webview.h"
 
 #if !defined(WEBVIEW_GTK) && !defined(WEBVIEW_COCOA) && !defined(WEBVIEW_EDGE)
